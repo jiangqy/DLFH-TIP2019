@@ -1,4 +1,4 @@
-function result = process_DLFH(dataset, param)
+function result = DLFH_algo(dataset, param)
 %% training procedure
 trainTime = tic;
 trainL = dataset.databaseL;
@@ -29,12 +29,6 @@ dBY = compactbit(BY_opt > 0);
 fprintf('...generating codes for query set and compressing codes finish\n');
 trainTime = toc(trainTime);
 fprintf('...training time: %3.3f\n', trainTime);
-result.dBX = dBX;
-result.dBY = dBY;
-result.tBX = tBX;
-result.tBY = tBY;
-result.codeX = BX_opt;
-result.codeY = BY_opt;
 result.trainTime = trainTime;
 
 fprintf('...encoding finishes\n');
