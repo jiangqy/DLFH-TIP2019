@@ -4,7 +4,7 @@ seed = 0;
 rng('default');
 rng(seed);
 param.seed = seed;
-dataname = 'flickr-25k-vgg';
+dataname = 'nus-wide-tc10';
 %% parameters setting
 % basie information
 param.dataname = dataname;

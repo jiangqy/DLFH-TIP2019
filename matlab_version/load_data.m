@@ -16,22 +16,6 @@ switch dataname
         dataset.YDatabase = YDatabase;
         dataset.testL = testL;
         dataset.databaseL = databaseL;
-    case 'nus-wide-tc10'
-        load ../data/nus-wide-tc10.mat XTest YTest XDatabase YDatabase testL databaseL;
-        dataset.XTest = XTest;
-        dataset.YTest = YTest;
-        dataset.XDatabase = XDatabase;
-        dataset.YDatabase = YDatabase;
-        dataset.testL = testL;
-        dataset.databaseL = databaseL;
-    case 'nus-wide-tc10-vgg'
-        load ../data/nus-wide-tc10.mat VTest YTest VDatabase YDatabase testL databaseL;
-        dataset.XTest = VTest;
-        dataset.YTest = YTest;
-        dataset.XDatabase = VDatabase;
-        dataset.YDatabase = YDatabase;
-        dataset.testL = testL;
-        dataset.databaseL = databaseL;
     case 'iapr-tc12'
         load ../data/iapr-tc12.mat XTest YTest XDatabase YDatabase testL databaseL;
         dataset.XTest = XTest;
@@ -42,6 +26,22 @@ switch dataname
         dataset.databaseL = databaseL;
     case 'iapr-tc12-vgg'
         load ../data/iapr-tc12.mat VTest YTest VDatabase YDatabase testL databaseL;
+        dataset.XTest = VTest;
+        dataset.YTest = YTest;
+        dataset.XDatabase = VDatabase;
+        dataset.YDatabase = YDatabase;
+        dataset.testL = testL;
+        dataset.databaseL = databaseL;
+    case 'nus-wide-tc10'
+        load ../data/nus-wide-clear.mat XTest YTest XDatabase YDatabase testL databaseL;
+        dataset.XTest = XTest;
+        dataset.YTest = YTest;
+        dataset.XDatabase = XDatabase;
+        dataset.YDatabase = YDatabase;
+        dataset.testL = testL;
+        dataset.databaseL = databaseL;
+    case 'nus-wide-tc10-vgg'
+        load ../data/nus-wide.mat VTest YTest VDatabase YDatabase testL databaseL;
         dataset.XTest = VTest;
         dataset.YTest = YTest;
         dataset.XDatabase = VDatabase;
