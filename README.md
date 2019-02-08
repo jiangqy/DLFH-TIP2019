@@ -31,7 +31,7 @@ You can download all dataset from pan.baidu.com. The links are listed as follows
 
 - [IAPR-TC12](https://pan.baidu.com/s/1k17NEH-F0NColkBkTRoupA) Passwd: hf8j
 
-- [NUS-WIDE]() Passwd: 
+- [NUS-WIDE](https://pan.baidu.com/s/1l_m3ktrrCJIEQshA-ezOuw) Password: cmdi
 
 Or download from:
 
