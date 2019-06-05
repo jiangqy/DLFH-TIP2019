@@ -53,5 +53,7 @@ DLFH_demo
 Run python\_version/dlfh_demo.py
 
 ```python
-python dlfh_demo.py
+python dlfh_demo.py --bit 8
 ```
+
+Please note that we only present a simple example for python version. Hence we only implement DLFH for python version. All exmperiments in the paper are based on matlab version.
